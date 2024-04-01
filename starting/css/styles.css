@@ -1,0 +1,342 @@
+body {
+    background-color: rgb(26, 24, 24);
+    color: #f50606;
+}
+
+.title {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    color: #f30c0c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgba(24, 16, 16, 0.85);
+    background-clip: padding-box;
+    border: 1px solid rgb(252, 5, 5);
+    box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    opacity: 1;
+    border-radius: 0.25rem;
+    background-image: linear-gradient(rgb(139, 60, 60), rgb(41, 39, 39));
+}
+
+
+.titlecolor {
+    color: #f50606;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: #f30c0c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgba(24, 16, 16, 0.85);
+    background-clip: padding-box;
+    border: 1px solid rgb(252, 5, 5);
+    box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    opacity: 1;
+    border-radius: 0.25rem;
+    text-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    background-image: linear-gradient(rgb(139, 60, 60), rgb(41, 39, 39));
+} 
+
+.colors {
+    border: 1px solid #f50606;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 750px;
+    height: auto;
+    background-color: rgba(24, 16, 16, 0.85);
+    background-clip: padding-box;
+    border: 1px solid rgb(252, 5, 5);
+    box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    opacity: 1;
+    border-radius: 0.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.color1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f50606;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #faeded;
+    background-clip: padding-box;
+    border: 1px solid rgb(252, 5, 5);
+    box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    opacity: 1;
+    border-radius: 0.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.color2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f50606;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f5f2f2;
+    background-clip: padding-box;
+        border: 1px solid rgb(252, 5, 5);
+        box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+        opacity: 1;
+        border-radius: 0.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+}
+
+.color3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f50606;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    background-clip: padding-box;
+        border: 1px solid rgb(252, 5, 5);
+        box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+        opacity: 1;
+        border-radius: 0.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+}
+
+.color4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f50606;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #2906ee;
+    background-clip: padding-box;
+        border: 1px solid #2906ee;
+        box-shadow: 0 0.25rem 0.75rem #2906ee;
+        opacity: 1;
+        border-radius: 0.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        color: #fcf8f8;
+}
+
+.titlefonts {
+color: #f50606;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: #f30c0c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(24, 16, 16, 0.85);
+    background-clip: padding-box;
+    border: 1px solid rgb(252, 5, 5);
+    box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    opacity: 1;
+    border-radius: 0.75rem;
+    text-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    background-image: linear-gradient(rgb(139, 60, 60), rgb(41, 39, 39));
+    border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+        width: auto;
+}
+
+.fonts {
+border: 1px solid #f50606;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 750px;
+    height: auto;
+    background-color: rgba(24, 16, 16, 0.85);
+    background-clip: padding-box;
+    border: 1px solid rgb(252, 5, 5);
+    box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    opacity: 1;
+    border-radius: 0.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    position: absolute;
+    left: 55%;
+    top: 12%;
+}
+
+.font1 {
+    margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #f50606;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #faeded;
+        background-clip: padding-box;
+        border: 1px solid rgb(252, 5, 5);
+        box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+        opacity: 1;
+        border-radius: 0.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+}
+
+.font2 {
+    margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #f50606;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #faeded;
+        background-clip: padding-box;
+        border: 1px solid rgb(252, 5, 5);
+        box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+        opacity: 1;
+        border-radius: 0.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+}
+
+.font3 {
+margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f50606;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #faeded;
+    background-clip: padding-box;
+    border: 1px solid rgb(252, 5, 5);
+    box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+    opacity: 1;
+    border-radius: 0.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.font4 {
+    margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #f50606;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #faeded;
+        background-clip: padding-box;
+        border: 1px solid rgb(252, 5, 5);
+        box-shadow: 0 0.25rem 0.75rem rgba(202, 6, 6, 0.671);
+        opacity: 1;
+        border-radius: 0.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+}
