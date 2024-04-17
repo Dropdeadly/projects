@@ -1,0 +1,109 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'GroovyFont', cursive;
+    background-color: black;
+    color: red;
+}
+
+/* Header styles */
+.header {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    position: absolute;
+}
+
+.header img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+}
+
+.navigation {
+    margin-top: 10px;
+    position: absolute;
+    left: 25%;
+}
+
+.navigation a {
+    color: red;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Mission styles */
+.mission {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.mission h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Menu styles */
+.menu {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 10px 10px 10px;
+}
+
+.menu a {
+    color: red;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Team styles */
+.team {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.team h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: red;
+}

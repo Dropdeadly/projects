@@ -1,0 +1,171 @@
+html {
+    font-family: "Bungee Spice", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: rgb(14, 10, 0);
+    /* background-image: url(https://www.stickers-factory.com/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/1/5/15692_00.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    border: solid 1px orange;
+    border-radius: 10px;
+    overflow: auto;
+    flex-wrap: wrap;
+    background-image: url(https://www.stickers-factory.com/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/1/5/15692_00.png), url(https://www.stickers-factory.com/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/1/5/15692_00.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    background-size: 200px, 200px;
+}
+
+/* .skull img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+} */
+
+.header h1 {
+    line-height: 0;
+    font-size: 5rem;
+}
+
+
+.navigation {
+    display: flex;
+    background-color: #3f3e3e;
+    height: 25px;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 1.3em;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-flex;
+    text-decoration: underline;
+    margin: 0 20px;
+}
+
+.navigation ul li:hover {
+    text-decoration: none;
+    background-color: rgb(5, 5, 5);
+}
+
+
+@media only screen and (max-width: 670px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .navigation ul li {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 475px) {
+    .navigation ul li {
+            font-size: .75rem;
+        }
+
+}
+
+.container2 {
+    display: flex;
+}
+
+.schedule {
+    overflow: auto;
+    border: solid 1px orange;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 1rem;
+}
+
+.list {
+    margin: 1rem;
+    border: solid 1px orange;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 1em;
+    width: 45%;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffb76b 13%, #ff7c00 38%, #ff7c00 38%, #ff7c00 41%, #ff7c00 41%, #ff7c00 45%, #ffa73d 52%, #ff7f04 84%);
+}
+
+th {
+  background-color: rgb(210, 211, 207);
+  border: 1px solid black;
+} 
+
+/* .container3 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    border: solid 1px orange;
+    border-radius: 10px;
+    overflow: auto;
+    flex-wrap: wrap;
+    width: 25%;
+} */
+
+.team {
+    overflow: auto;
+    border: solid 1px orange;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* .names {
+    margin: 1rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.names ol {
+    margin: 0;
+    padding: 0;
+} */
